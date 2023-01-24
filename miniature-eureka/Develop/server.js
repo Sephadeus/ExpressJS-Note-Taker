@@ -107,17 +107,17 @@ app.delete("/api/notes/:id", (req, res) => {
     //Loop through the array until one has an ID that matches the one to be deleted
     for (let i = 0; i < notes.length; i++) {
       if (notes[i].id == idToDelete) {
-        var notesArray = notes.splice(i, 1);
+            notes.splice(i, 1);
 
     //Save the altered array to the json file
         fs.writeFile(
           path.join(__dirname, "./db/db.json"),
-          JSON.stringify(notesArray),
+          JSON.stringify(notes),
           (err, data) => {
             if (err) {
               return console.error(err);
             }
-              res.json(notesArray);
+              res.json(notes);
             })
           }
       }
