@@ -1,5 +1,6 @@
 //Import dependencies
 const express = require("express");
+const genUniqueID = require("generate-unique-id");
 const fs = require("fs");
 const path = require("path");
 
@@ -53,21 +54,11 @@ app.post("/api/notes", (req, res) => {
     let notes = JSON.parse(data);
     console.log(notes);
 
-    //If array has values, assign ID value to be one more than the previous ID
-    if (notes.length > 0) {
-      let lastID = notes[notes.length - 1].id;
-      var id = parseInt(lastID + 1);
-
-        //If array is vacant give the first note a value of one
-    } else {
-      var id = 1;
-    }
-
-    //Create new note from data stored in the request body
+    //Create new note from data stored in the request body with unique id generated with NPM package
     let savedNote = {
       title: dockedNote.title,
       text: dockedNote.text,
-      id: id,
+      id: genUniqueID({length: 5}),
     };
 
     //Copy the array of notes
