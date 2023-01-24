@@ -23,7 +23,7 @@ For questions, suggestions, compliments or complaints, send me an email at josep
 If you have any suggestions on how this page could be better, feel free to shoot me an email at joseph.labadia.berlin@gmail.com  or bizherojoe@gmail.com.
 
 ## Authors and acknowledgment
-The front-end of this project was originally designed and written by , and the back end was programmed and deployed to Heroku by Sephadeus (Joe Labadia).
+The front-end of this project was originally designed and written by @Xandromus (Xander Rapstine), @nol166 (John McCambridge), and @Georgeyoo (George Yoo), while the back end of the application was programmed and deployed to Heroku by Sephadeus (Joe Labadia).
 
 ## License
 This project has an GPU License which authorizes general public use.
