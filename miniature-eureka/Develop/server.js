@@ -35,4 +35,11 @@ app.get("/api/notes", (req, res) => {
             res.json(JSON.parse(data));
         }
     })
-})
+});
+
+//App listener on PORT
+app.listen(PORT, () => {
+    console.log(`Server now active at http://localhost/${PORT}`)
+});
+
+
