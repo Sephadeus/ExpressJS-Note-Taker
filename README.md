@@ -1,13 +1,12 @@
-# Note Taker Starter Code
-
-# Module 6 - Meteorologia: A 5 Day Weather Forecasting Application in JavaScript
-
+# Note Taker
 
 ## Description
-This project is a note taking application. The purpose of this project was to utilize the interactivity of JavaScript and the data received from the user to write, save, and delete notes as they see fit.
+This project is a note taking application. The purpose of this project was to utilize the interactivity of JavaScript and the data received from the user to write, save, and delete notes as they see fit. 
+
+This application uses the file system for file handling, Express.js for routing, Node.js for running the application, and the NPM package Generate-Unique-ID to create a unique ID for each new note.
 
 ## Visuals
-Check out the screenshot here --> ![2022-10-30 22 57 37 127 0 0 1 d071e1be9bab](https://user-images.githubusercontent.com/90430093/198921884-b83b5086-8f66-4c55-926e-f7711dd50577.png)
+Check out the screenshot here --> ![2023-01-24 18 33 19 sephadeus-note-taker herokuapp com 6976eab6d403](https://user-images.githubusercontent.com/90430093/214444521-b9d3e558-7cb7-46e5-937d-2fd6c9d34ae7.jpg)
 
 
 ## Installation
